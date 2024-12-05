@@ -52,7 +52,6 @@ const ARCVALUES = [TAU * 0.25, TAU * 0.5, TAU * 0.75, TAU];
       // draw circle in the middle of the cell
       arc(x + CELLSIZE/2, y + CELLSIZE/2, CELLSIZE, CELLSIZE, 0, random(ARCVALUES));
       arc(x + CELLSIZE/2, y + CELLSIZE/2, CELLSIZE/2, CELLSIZE, 0, random(ARCVALUES));
-
     }
   }
 }
