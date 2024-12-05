@@ -1,6 +1,13 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
+
+  /* centers all of the css */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 canvas {
